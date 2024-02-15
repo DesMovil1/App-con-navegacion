@@ -22,7 +22,27 @@ const Home = () => {
             nombre:'ADA',
             precio:'0.5989$',
             cambio:'+5.44%'
-        }
+        },
+        {
+            nombre: 'XRP',
+            precio: '0.759$',
+            cambio: '+3.21%',
+        },
+        {
+            nombre: 'DOT',
+            precio: '18.22$',
+            cambio: '-1.45%',
+        },
+        {
+            nombre: 'SOL',
+            precio: '127.94$',
+            cambio: '+4.12%',
+        },
+        {
+            nombre: 'DOGE',
+            precio: '0.055$',
+            cambio: '+2.67%',
+        },
     ]
 
   return (
