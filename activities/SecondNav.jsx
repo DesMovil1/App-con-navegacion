@@ -2,9 +2,9 @@ import React from 'react'
 import { Text } from 'react-native'
 import {Tabs} from './Tabs'
 
-const SecondNav = () => {
+const SecondNav = ({navigation} ) => {
   return (
-    <Tabs></Tabs>
+    <Tabs navigation={navigation}/>
   )
 }
 
